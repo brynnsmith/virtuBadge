@@ -8,10 +8,9 @@ const UserSchema = new mongoose.Schema({
   jobTitle: { type: String, required: true },
   company: { type: String },
   password: String,
-  profilePic: { type: String },
+  image: { type: String },
   linkedIn: { type: String },
   twitter: { type: String }
-
 });
 
 // Password hash middleware.
