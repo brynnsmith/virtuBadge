@@ -3,4 +3,5 @@ Digital badge generator for virtual events to encourage visitors to share their 
 
 This program takes user information input via form to generate a .png file that is then sharable directly through the application or available for download.
 
+
 HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, PassportJS
