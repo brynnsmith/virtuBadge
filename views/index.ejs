@@ -25,32 +25,26 @@
             <fieldset>
                 <h3>Register Now</h3>
                 <p>Also provides full access to our video intensive resource platform</p>
-                <form action= "/signup" method="POST">
+                <form action= "/createBadge" enctype="multipart/form-data" method="POST">
                     <div>
-                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+                        <input name="firstName" type="text" class="form-control" id="firstName" placeholder="First Name" required>
                     </div>
                     <div>
-                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+                        <input name="lastName" type="text" class="form-control" id="lastName" placeholder="Last Name" required>
                     </div>
                     <div>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                        <input name="email" type="email" class="form-control" id="email" placeholder="Email" required>
                     </div>
                     <div>
-                        <input type="text" class="form-control" id="jobTitle" name="jobTitle" placeholder="Job Title">
+                        <input name="jobTitle" type="text" class="form-control" id="jobTitle" placeholder="Job Title" required>
                     </div>
                     <div>
-                        <input type="text" class="form-control" id="company" name="company" placeholder="Company">
+                        <input name="company" type="text" class="form-control" id="company" placeholder="Company" required>
                     </div>
                     <div>
-                        <input type="text" class="form-control" id="linkedIn" name="linkedIn" placeholder="LinkedIn URL">
+                        <input name="linkedIn" type="text" class="form-control" id="linkedIn" placeholder="LinkedIn URL" required>
                     </div>
-                    <div>
-                        <input type="password" class="form-control" id="password" name="password" placeholder="Create a Password">
-                    </div>
-                    <div>
-                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
-                    </div>
-                    <button type="submit" class="btnFull">Get a FREE ticket</button>    
+                    <button name= "submit" type="submit" class="btnFull">Get a FREE ticket</button>    
                 </form>
             </fieldset>
         </section> 
